@@ -106,7 +106,7 @@ export default class CreateExercise extends Component {
               required
               type="text"
               className="form-control"
-              placeholder="Description..."
+              placeholder="Enter which exercise you did... "
               value={this.state.description}
               onChange={this.onChangeDescription}
             />
@@ -117,7 +117,7 @@ export default class CreateExercise extends Component {
               required
               type="text"
               className="form-control"
-              placeholder="Duration.."
+              placeholder="Enter how much time you take..."
               value={this.state.duration}
               onChange={this.onChangeDuration}
             />

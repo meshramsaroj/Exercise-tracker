@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+/* body{
+  background-image: url('./assets/exercise_bg');
+  background-repeat: no-repeat ;
+  background-size: 100%;
+} */
+
+td a,
+svg {
+  cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.info a {
+  color: green;
+  font-weight: 700;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.info a:hover {
+  color: green;
+  text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button a,
+a:hover {
   color: white;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.action a{
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p::before{
+  content: ":";
+  font-weight: bold;
+  margin-right: 10px;
 }
